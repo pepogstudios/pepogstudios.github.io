@@ -1,0 +1,26 @@
+remote_theme: regulad/hacker
+title: Placeholder
+name: Placeholder
+
+# Plugins
+plugins:
+  - github-pages
+
+# Elements
+show_header: true
+show_description: true
+
+# Sass/SCSS
+sass:
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  startings: [html, head, body]
